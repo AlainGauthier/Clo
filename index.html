@@ -30,9 +30,9 @@
 
 <body>
     <!-- NAVBAR -->
-    <header class="  navbar fixed-top navbar-expand-lg navbar-light bg-white text-dark" id="header">
+    <header class="navbar fixed-top navbar-expand-lg navbar-light bg-white text-dark" id="header">
         <a class="navbar-brand font-weight-bolder nav-link nav-item" href="#header">
-            <img class="mx-5 mt-2" src="images/clo.png" height="80" alt="Claudine Verstraelen Arteiste Peintre">
+            <img class="mx-5 mt-2" src="images/clo.png" height="80" alt="Claudine Verstraelen Artiste Peintre">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -51,8 +51,12 @@
     </header>
 
     <!-- CONTAINER -->
-    <div class="container" style="padding-top:158px">
+    <div id="container" class="container" style="padding-top:158px">
         <div id="artiste" style="display:none; margin-top:-100px"></div>
+
+        <div class="row justify-content-center">
+            <h2 class="desc"> Claudine Verstraelen</h2>
+        </div>
         <!-- ARTISTE -->
         <div class="row justify-content-center">
             <div class="col-md-4">
@@ -61,8 +65,6 @@
 
             <div class=" col-md-7">
                 <br>
-
-                <h2 class="desc text-md-left text-center"> Claudine Verstralen</h2>
                 <div style="text-align: justify;
                 text-justify: inter-word;">Sophie Asselin est née en 1980 à Saint-Paul de
                     Joliette (Québec) d’une mère artiste et couturière et d’un père entrepreneur. Très jeune, elle
@@ -89,7 +91,13 @@
         </div>
 
         <!-- A VENDRE -->
-        <hr class="my-md-5" style=" width:30%; color:gainsboro" id="oeuvres">
+        <hr class="my-md-5" style=" width:30%; color:gainsboro">
+
+        <div id="oeuvres" class="row mb-3 py-5"></div>
+
+        <div class="row justify-content-center mb-5">
+            <h2 class="desc">Oeuvres Disponibles</h2>
+        </div>
         <!-- ART 1 -->
         <div class="row">
             <div class="col-md-6">
@@ -106,14 +114,14 @@
                 <div class="text-center mt-4" style="font-size:x-large;">
                     <q class="desc">Blue
                         Horizon</q> <br><span class="text-muted " style="font-size:medium">30" x 50" - papier yupo sur
-                        châssi de merisier <span class="badge badge-pill badge-danger">Vendue</span></span>
+                        châssi de merisier <span class="badge badge-pill badge-danger">Vendu</span></span>
                     <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
         </div>
 
         <!-- ART 2 -->
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
                 <img class="mt-2 img-fluid" src="images/83507607_117084106575975_8692635072592871424_n.jpg"
                     height="480">
@@ -135,7 +143,7 @@
 
 
         <!-- ART 3 -->
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
                 <img class="mt-2 img-fluid" src="images/IMG_0015.JPG">
             </div>
@@ -155,7 +163,7 @@
 
 
         <!-- ART  -->
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
                 <img class="mt-2 img-fluid" src="images/IMG_0027.JPG">
             </div>
@@ -174,7 +182,7 @@
         </div>
 
         <!-- ART  -->
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
                 <img class="mt-2 img-fluid" src="images/IMG_0030.JPG">
             </div>
@@ -193,7 +201,7 @@
         </div>
 
         <!-- ART  -->
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
                 <img class="mt-2 img-fluid" src="images/IMG_0019.JPG">
             </div>
@@ -212,7 +220,7 @@
         </div>
 
         <!-- ART  -->
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
                 <img class="mt-2 img-fluid" src="images/IMG_0031.JPG">
             </div>
@@ -232,7 +240,7 @@
         </div>
 
         <!-- ART  -->
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-md-6">
                 <img class="mt-2 img-fluid" src="images/IMG_0020.JPG">
             </div>
@@ -252,9 +260,11 @@
             </div>
         </div>
 
+        <div id="gallerie" class="row mb-5 py-5"></div>
+
         <!-- GALLERY -->
-        <div id="gallerie" class="row justify-content-center my-5">
-            <h1 class="desc">Collection</h1>
+        <div class="row justify-content-center mb-5">
+            <h2 class="desc">Collection</h2>
         </div>
         <div class="mb-5">
 
@@ -312,9 +322,10 @@
         </div>
 
 
-        <div class="row"></div>
-        <div id="info" class="mt-5 pt-5 pb-3 row justify-content-center">
-            <h1 class="desc">Info</h1>
+        <div id="info" class="row pt-3"></div>
+
+        <div class="mt-5 pt-5 pb-3 row justify-content-center">
+            <h2 class="desc">Info</h2>
         </div>
         <div id="accordion" class="row justify-content-center mb-5 pb-5 text-center">
 
@@ -609,7 +620,7 @@
         </div>
 
         <!-- CONTACT -->
-        <h1 class=" mb-2 mt-5 desc text-center">Contact</h1>
+        <h2 class=" mb-2 mt-5 desc text-center">Contact</h2>
         <div class="row justify-content-center px-4">
             <a class="btn btn-outline-dark mt-4  col-md-2" href="tel:514-111-2222"><i class="fas fa-phone mr-3"
                     style="font-size:1.2rem"></i>514-969-1409</a>
@@ -670,7 +681,7 @@
                     // Using jQuery's animate() method to add smooth page scroll
                     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
-                        scrollTop: $(hash).offset().top
+                        scrollTop: ($(hash).offset().top - 158)
                     }, 350, function () {
 
                         // Add hash (#) to URL when done scrolling (default click behavior)
