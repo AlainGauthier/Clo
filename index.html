@@ -32,8 +32,8 @@
     <!----------------------------------------------------------------------------------------------------
         NAVBAR 
     ----------------------------------------------------------------------------------------------------->
-    <header class="  navbar fixed-top navbar-expand-lg navbar-light bg-white text-dark">
-        <a class="navbar-brand font-weight-bolder" href="./index.html">
+    <header class="  navbar fixed-top navbar-expand-lg navbar-light bg-white text-dark" id="header">
+        <a class="navbar-brand font-weight-bolder nav-link nav-item" href="#header">
             <img class="mx-5 mt-2" src="images/clo.png" height="80">
         </a>
 
@@ -45,7 +45,7 @@
             <div class="navbar-nav desc text-center" style="font-size: 22px;">
                 <a class="nav-item nav-link text-dark" href="#artiste">Artiste</a>
                 <a class="nav-item nav-link text-dark" href="#oeuvres">Disponible</a>
-                <a class="nav-item nav-link text-dark" href="#gallery">Collection</a>
+                <a class="nav-item nav-link text-dark" href="#gallerie">Collection</a>
                 <a class="nav-item nav-link text-dark" href="#">Commander</a>
                 <a class="nav-item nav-link mr-md-2 text-dark" href="#contact">Contact</a>
             </div>
@@ -57,7 +57,9 @@
     ----------------------------------------------------------------------------------------------------->
     <div class="container" style="padding-top:158px">
         <div id="artiste" style="display:none; margin-top:-100px"></div>
-        <!-- Artiste Claudine Verstralen -->
+        <!----------------------------------------------------------------------------------------------------
+            ARTISTE 
+        ----------------------------------------------------------------------------------------------------->
         <div class="row justify-content-center">
             <div class="col-md-4">
                 <img class="img-fluid mt-2" src="images/191008-ca-171-WEB.jpg">
@@ -92,6 +94,9 @@
 
         </div>
 
+        <!----------------------------------------------------------------------------------------------------
+            A VENDRE 
+        ----------------------------------------------------------------------------------------------------->
         <hr class="my-md-5" style=" width:30%; color:gainsboro" id="oeuvres">
         <!-- ART 1 -->
         <div class="row">
@@ -256,21 +261,21 @@
         </div>
 
         <!-- <div id="gallerie" style="position: relative; height:100px; margin-top:-200px"></div> -->
+        <!----------------------------------------------------------------------------------------------------
+            GALLERY 
+        ----------------------------------------------------------------------------------------------------->
+        <div id="gallerie" class="row justify-content-center my-5">
+            <h1 class="desc">Collection</h1>
+        </div>
+        <div class="mb-5">
 
-        <div id="gallery" class="mb-5">
-
-            <!-- <div id="gallery-header"> -->
-            <!-- <div id="gallery-header-center"> -->
-            <!-- <div id="gallery-header-center-left">
-                        <div id="gallery-header-center-left-icon"><span class="iconb" data-icon="&#xe23a;"></span></div>
-                        <div id="gallery-header-center-left-title">All Galleries</div>
-                    </div> -->
-            <!-- <div id="gallery-header-center-right">
-                        <div class="gallery-header-center-right-links" id="filter-all">All</div>
-                        <div class="gallery-header-center-right-links" id="filter-studio">Studio</div>
-                        <div class="gallery-header-center-right-links" id="filter-landscape">Landscapes</div>
-                    </div>
-                </div>
+            <!-- <div id="gallery-header">
+                <div id="gallery-header-center"> -->
+            <div class="row justify-content-center my-3">
+                <div class="gallery-header-center-right-links" id="filter-all">Tous</div>
+                <div class="gallery-header-center-right-links" id="filter-studio">A vendre</div>
+            </div>
+            <!-- </div>
             </div> -->
             <div class="" class="text-center" id="gallery-content">
                 <div id="gallery-content-center">
