@@ -17,6 +17,10 @@
         .desc {
             font-family: 'Nothing You Could Do', cursive;
         }
+
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
 
 </head>
@@ -35,10 +39,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav desc " style="font-size: 24px;">
-                <a class="nav-item nav-link text-dark" href="./index.html#howitworksNav">Artiste</a>
-                <a class="nav-item nav-link text-dark" href="./index.html#priceestimatorNav">Oeuvres</a>
-                <a class="nav-item nav-link mr-md-2 text-dark" href="./faq.html">Contact</a>
+            <div class="navbar-nav desc text-center" style="font-size: 24px;">
+                <a class="nav-item nav-link text-dark" href="#artiste">Artiste</a>
+                <a class="nav-item nav-link text-dark" href="#oeuvres">Oeuvres</a>
+                <a class="nav-item nav-link mr-md-2 text-dark" href="#contact">Contact</a>
 
             </div>
         </div>
@@ -47,7 +51,7 @@
     <!----------------------------------------------------------------------------------------------------
         CONTAINER 
     ----------------------------------------------------------------------------------------------------->
-    <div class="container" style="padding-top:158px">
+    <div class="container" style="padding-top:158px" id="artiste">
 
         <!-- Artiste Claudine Verstralen -->
         <div class="row justify-content-center">
@@ -80,7 +84,7 @@
 
         </div>
 
-        <hr class="my-5" style=" width:30%; color:gainsboro">
+        <hr class="my-md-5" style=" width:30%; color:gainsboro" id="oeuvres">
         <!-- ART 1 -->
         <div class="row">
             <div class="col-md-6">
@@ -94,11 +98,11 @@
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <div class="text-center" style="font-size:x-large;">
+                <div class="text-center mt-4" style="font-size:x-large;">
                     <q class="desc">Blue
                         Horizon</q> <br><span class="text-muted " style="font-size:medium">30" x 50" - papier yupo sur
                         châssi de merisier <span class="badge badge-pill badge-danger">Vendue</span></span>
-                    <hr style="width:30%; color:gainsboro">
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
         </div>
@@ -115,10 +119,11 @@
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <div class="text-center col-12 my-5" style="font-size:x-large;"><q class="desc">Noir fluide</q>
+                <div class="text-center mt-4" style="font-size:x-large;">
+                    <q class="desc">Noir fluide</q>
                     <br><span class="text-muted " style="font-size:medium">20" x 30" - papier yupo sur
                         merisier <span class="badge badge-pill badge-success">Disponible 350$</span></span>
-                    <hr style="width:30%; color:gainsboro">
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
         </div>
@@ -135,100 +140,115 @@
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <div class="desc text-center col-12 my-5" style="font-size:x-large;"><q>Chaleur Dorée</q>
-                    <hr style="width:30%; color:gainsboro">
+                <div class="text-center mt-4" style="font-size:x-large;"><q class="desc">Chaleur Dorée</q>
+                    <br><span class="text-muted " style="font-size:medium">20" x 30" - papier yupo sur
+                        merisier <span class="badge badge-pill badge-success">Disponible 350$</span></span>
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
         </div>
 
 
         <!-- ART  -->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0027.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0027.JPG">
             </div>
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0029.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0029.JPG">
             </div>
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <div class="desc text-center col-12 mx-5 my-5" style="font-size:x-large;"><q>Rose Ardent</q>
-                    <hr style="width:30%; color:gainsboro">
+                <div class="text-center mt-4" style="font-size:x-large;"><q class="desc">Rose Ardent</q>
+                    <br><span class="text-muted " style="font-size:medium">20" x 30" - papier yupo sur
+                        merisier <span class="badge badge-pill badge-success">Disponible 350$</span></span>
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- ART  -->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0030.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0030.JPG">
             </div>
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0011.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0011.JPG">
             </div>
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <div class="desc text-center col-12 mx-5 my-5" style="font-size:x-large;"><q>Clody</q>
-                    <hr style="width:30%; color:gainsboro">
+                <div class="text-center mt-4" style="font-size:x-large;"><q class="desc">Clody</q>
+                    <br><span class="text-muted " style="font-size:medium">20" x 30" - papier yupo sur
+                        merisier <span class="badge badge-pill badge-success">Disponible 350$</span></span>
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- ART  -->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0019.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0019.JPG">
             </div>
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0026 2.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0026 2.JPG">
             </div>
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <div class="desc text-center col-12 mx-5 my-5" style="font-size:x-large;"><q>Duo Floral</q>
-                    <hr style="width:30%; color:gainsboro">
+                <div class="text-center mt-4" style="font-size:x-large;"><q class="desc">Duo Floral</q>
+                    <br><span class="text-muted " style="font-size:medium">20" x 30" - papier yupo sur
+                        merisier <span class="badge badge-pill badge-success">Disponible 350$</span></span>
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- ART  -->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0031.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0031.JPG">
             </div>
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0014.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0014.JPG">
             </div>
 
         </div>
         <div class="row text-center">
             <div class="col-12">
-                <div class="desc text-center col-12 mx-5 my-5" style="font-size:x-large;"><q>Rose Ambrée</q>
-                    <hr style="width:30%; color:gainsboro">
+                <div class=" text-center col-12 my-5" style="font-size:x-large;"><q class="desc">Rose Ambrée</q>
+                    <br><span class="text-muted " style="font-size:medium">20" x 30" - papier yupo sur
+                        merisier <span class="badge badge-pill badge-success">Disponible 350$</span></span>
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- ART  -->
-        <!-- <div class="row">
+        <div class="row">
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0020.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0020.JPG">
             </div>
             <div class="col-md-6">
-                <img class="mx-5 mt-2 img-fluid" src="images/IMG_0001.JPG" height="480">
+                <img class="mt-2 img-fluid" src="images/IMG_0001.JPG">
             </div>
 
         </div>
+
         <div class="row text-center">
             <div class="col-12">
-                <div class="desc text-center col-12 mx-5 my-5" style="font-size:x-large;"><q>Pétales Cyanosées</q>
-                    <hr style="width:30%; color:gainsboro">
+                <div class="text-center col-12 my-5" style="font-size:x-large;"><q class="desc">Pétales Cyanosées</q>
+                    <br><span class="text-muted " style="font-size:medium">20" x 30" - papier yupo sur
+                        merisier <span class="badge badge-pill badge-success">Disponible 350$</span></span>
+                    <hr class="mt-md-4 mb-md-5" style=" width:30%; color:gainsboro">
                 </div>
             </div>
-        </div> -->
-        <!-- <h1 class="mb-2 mt-5 desc text-center">Contact</h1>
+        </div>
+
+
+        <h1 class="mb-2 mt-5 desc text-center" id="contact">Contact</h1>
         <div class="row justify-content-center">
             <a class="btn btn-outline-dark mt-4 mr-4 col-xl-3" href="mailto:info@r2b.com"><i Courriel
                     class="far fa-envelope-open mr-3 "></i>Courriel</a>
@@ -237,7 +257,7 @@
             <a class="btn btn-outline-dark mt-4 mr-4 col-xl-3" href="sms:514-111-2222"><i class="fas fa-sms mr-3"
                     style="font-size:1.2rem"></i>Message text</a>
         </div>
-        <div class="row"> -->
+        <!-- <div class="row"> -->
 
         <!-- <div class="col-lg-4 border-light text-white pb-5"
                 style="background-image: linear-gradient(to bottom right, #afd695, #84b265);"> -->
@@ -292,18 +312,51 @@
 
 
         <!-- </div> -->
+        <div class="row my-5 text-muted justify-content-center h4">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-pinterest ml-3"></i>
+            <i class="fab fa-instagram-square ml-3"></i>
+        </div>
+        <div class="row my-5 justify-content-center ">
+            <div class="text-muted text-small">© Claudine Verstaelen 2020 </div>
+        </div>
+
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 200, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </body>
 
 </html>
