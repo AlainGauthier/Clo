@@ -187,3 +187,8 @@
 	transition: all 0.5s;
 	margin-left: 10px;
 }
+@media (max-width: 767.98px) {
+	#gallery-content-center img{
+		width: 30%;
+	} 
+}
