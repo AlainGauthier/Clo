@@ -188,10 +188,9 @@
 	transition: all 0.5s;
 	margin-left: 10px;
 }
-/* @media (min-width: 768px) and (max-width: 800.98px) { ... } */
 
-/* @media (max-width: 767.98px) { */
-	/* #gallery-content-center img{
-		width: 31%;
+@media (max-width: 767.98px) { 
+	 #gallery-content-center img{
+		width: 30%;
 	} 
-} */
+}
