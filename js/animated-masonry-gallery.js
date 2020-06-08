@@ -17,13 +17,13 @@ $(window).on('load', function () {
 			$("#gallery-header-center-left-title").html('All Galleries');
 		}
 		if (button == 2) {
-			$("#filter-studio").addClass(button_class);
-			$("#gallery-header-center-left-title").html('Studio Gallery');
+			$("#filter-vendre").addClass(button_class);
+			$("#gallery-header-center-left-title").html('Vendre Gallery');
 		}
-		if (button == 3) {
-			$("#filter-landscape").addClass(button_class);
-			$("#gallery-header-center-left-title").html('Landscape Gallery');
-		}
+		// if (button == 3) {
+		// 	$("#filter-landscape").addClass(button_class);
+		// 	$("#gallery-header-center-left-title").html('Landscape Gallery');
+		// }
 	}
 
 	function check_size() {
@@ -42,8 +42,8 @@ $(window).on('load', function () {
 
 
 	$("#filter-all").click(function () { $container.isotope({ filter: '.all' }); button = 1; check_button(); });
-	$("#filter-studio").click(function () { $container.isotope({ filter: '.studio' }); button = 2; check_button(); });
-	$("#filter-landscape").click(function () { $container.isotope({ filter: '.landscape' }); button = 3; check_button(); });
+	$("#filter-vendre").click(function () { $container.isotope({ filter: '.vendre' }); button = 2; check_button(); });
+	// $("#filter-landscape").click(function () { $container.isotope({ filter: '.landscape' }); button = 3; check_button(); });
 	$("#gallery-header-center-left-icon").click(function () { if (size == 0) { size = 1; } else if (size == 1) { size = 0; } check_size(); });
 
 
