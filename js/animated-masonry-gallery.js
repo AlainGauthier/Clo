@@ -49,4 +49,8 @@ $(window).on('load', function () {
 
 	check_button();
 	check_size();
+	$(window).resize(function () {
+		check_size();
+		// $("#isotope").masonry().masonry("reloadItems");
+	});
 });
